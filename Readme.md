@@ -11,7 +11,7 @@ flowchart TD
 
     subgraph Model["Emotion Detection"]
         D[OpenCV Face Detection]
-        E["Keras/TensorFlow CNN<br/>trained via train.py on FER2013"]
+        E["Model<br/>trained via train.py on data_moods.csv"]
         F[Predicted Emotion<br/>angry / happy / sad / neutral / etc.]
     end
 
